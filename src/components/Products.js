@@ -14,6 +14,8 @@ import {
   Col
 } from 'reactstrap';
 
+const truncate = (str , max) => str.length < max ? str : `${str.substr(0, max)}...`;;
+
 export default function({products}){
 
  
@@ -41,7 +43,7 @@ export default function({products}){
                   {product.price}
                 </CardSubtitle>
                 <CardText>
-                  {product.description}
+                  {truncate (product.description , 100)}
                 </CardText>
                 <Button>
                   Add to Cart
