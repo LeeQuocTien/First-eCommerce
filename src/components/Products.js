@@ -52,6 +52,12 @@ export default function({products}){
             </Card>
           </Col>
         ))}
+        <Col className="class-col">
+            <div className="page-total">Showing 1 - 16 of 20 total</div>
+            <Button >
+              SHOW MORE
+            </Button>
+        </Col>
       </Row>
       
     </Container>

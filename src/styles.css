@@ -2,3 +2,15 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.class-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.page-total {
+  margin-bottom: 15px;
+}
