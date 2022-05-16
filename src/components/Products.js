@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import {
   CardGroup,
@@ -23,13 +23,16 @@ const getPaginatedProducts = (products, currentPage, itemsLimit) => {
   return products.slice(startIndex,endIndex)
 };
 
-export default function({products}){
+export default function({products, fetchProducts}){
 
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsLimit, setItemsLimit] = useState(11);
   const [pagesLimit, setPagesLimit] = useState(5);
 
- 
+  useEffect(() => {
+    fetchProducts()
+  },[fetchProducts])
+
   return (
     <Container>
       <h2> Products </h2>
