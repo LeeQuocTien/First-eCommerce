@@ -20,50 +20,30 @@ export default function() {
   const [ toggleIsOpen, setToggle] = useState(false);
   return (
     <div>
-      <Navbar color="light" expand="lg" light>
+      <Navbar color="light" expand="md" light>
         <NavbarBrand href="/">
           reactstrap
         </NavbarBrand>
         <NavbarToggler onClick={() => setToggle(!toggleIsOpen)} />
-        <Collapse isOpen={toggleIsOpen} navbar>
+        <Collapse isOpen={toggleIsOpen} className="collapse-toggler" navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">
-                Components
+              <NavLink href="/">
+                Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
+              <NavLink href="/signin/">
+                Sign In
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown
-              inNavbar
-              nav
-            >
-              <DropdownToggle
-                caret
-                nav
-              >
-                Options
-              </DropdownToggle>
-              <DropdownMenu end>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="/cartItems/">
+                Cart ({0})
+              </NavLink>
+            </NavItem>
           </Nav>
-          <NavbarText>
-            Simple Text
-          </NavbarText>
+
         </Collapse>
       </Navbar>
     </div>

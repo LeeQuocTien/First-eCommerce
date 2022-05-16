@@ -39,7 +39,7 @@ export default function({products, fetchProducts}){
       <Row>
       {getPaginatedProducts(products, currentPage, itemsLimit).map((product, idx) => (
           <Col md="6" lg="4" key={idx}>
-            <Card>
+            <Card className='product-list-item'>
               <CardImg
                 alt="Card image cap"
                 src={product.imagineUrl}
