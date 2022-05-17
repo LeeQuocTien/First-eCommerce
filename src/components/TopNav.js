@@ -38,6 +38,11 @@ export default function() {
               </NavLink>
             </NavItem>
             <NavItem>
+              <NavLink href="/products/">
+                Products
+              </NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink href="/cartItems/">
                 Cart ({0})
               </NavLink>
