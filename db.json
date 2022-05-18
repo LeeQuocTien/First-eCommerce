@@ -1,124 +1,146 @@
 {
-  "products":[
-      {
+  "products": [
+    {
       "id": 1,
       "name": "Mushrooms - Honey",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id",
       "price": "$3.26"
-    }, {
+    },
+    {
       "id": 2,
       "name": "Cheese - Parmesan Cubes",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec",
       "price": "$8.85"
-    }, {
+    },
+    {
       "id": 3,
       "name": "Wine - Lamancha Do Crianza",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue",
       "price": "$1.21"
-    }, {
+    },
+    {
       "id": 4,
       "name": "Onion Powder",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper",
       "price": "$4.19"
-    }, {
+    },
+    {
       "id": 5,
       "name": "Cheese - Cheddar, Old White",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas",
       "price": "$1.89"
-    }, {
+    },
+    {
       "id": 6,
       "name": "Magnotta - Bel Paese White",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a",
       "price": "$3.02"
-    }, {
+    },
+    {
       "id": 7,
       "name": "Bacardi Breezer - Tropical",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget",
       "price": "$6.01"
-    }, {
+    },
+    {
       "id": 8,
       "name": "Salt - Sea",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis",
       "price": "$6.50"
-    }, {
+    },
+    {
       "id": 9,
       "name": "Hold Up Tool Storage Rack",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac",
       "price": "$4.52"
-    }, {
+    },
+    {
       "id": 10,
       "name": "Duck - Fat",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus",
       "price": "$5.58"
-    }, {
+    },
+    {
       "id": 11,
       "name": "Lime Cordial - Roses",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel",
       "price": "$1.93"
-    }, {
+    },
+    {
       "id": 12,
       "name": "Soup - Campbells, Chix Gumbo",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu",
       "price": "$7.01"
-    }, {
+    },
+    {
       "id": 13,
       "name": "Pop - Club Soda Can",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum",
       "price": "$4.68"
-    }, {
+    },
+    {
       "id": 14,
       "name": "Molasses - Fancy",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis",
       "price": "$4.09"
-    }, {
+    },
+    {
       "id": 15,
       "name": "Oil - Cooking Spray",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit",
       "price": "$4.42"
-    }, {
+    },
+    {
       "id": 16,
       "name": "Appetizer - Mango Chevre",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla",
       "price": "$5.09"
-    }, {
+    },
+    {
       "id": 17,
       "name": "Flour - So Mix Cake White",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum",
       "price": "$8.03"
-    }, {
+    },
+    {
       "id": 18,
       "name": "Nut - Hazelnut, Whole",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel",
       "price": "$4.76"
-    }, {
+    },
+    {
       "id": 19,
       "name": "Spoon - Soup, Plastic",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin",
       "price": "$2.02"
-    }, {
+    },
+    {
       "id": 20,
       "name": "Oven Mitts - 15 Inch",
       "imagineUrl": "https://picsum.photos/318/180",
       "description": "erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a",
       "price": "$7.38"
-    }]
+    }
+  ],
+  "cartItems": [
+  ]
 }

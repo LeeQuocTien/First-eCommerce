@@ -23,7 +23,7 @@ const getPaginatedProducts = (products, currentPage, itemsLimit) => {
   return products.slice(startIndex,endIndex)
 };
 
-export default function({products, fetchProducts}){
+export default function({products, fetchProducts, postCartItems}){
 
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsLimit, setItemsLimit] = useState(11);
@@ -59,7 +59,7 @@ export default function({products, fetchProducts}){
                 <CardText>
                   {truncate (product.description , 100)}
                 </CardText>
-                <Button>
+                <Button onClick={() => postCartItems({product})}>
                   Add to Cart
                 </Button>
               </CardBody>
