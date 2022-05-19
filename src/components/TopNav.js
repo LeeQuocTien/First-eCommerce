@@ -16,6 +16,8 @@ import {
   DropdownItem,
   Container } from 'reactstrap';
 
+import { Link } from 'react-router-dom';
+
 export default function() {
   const [ toggleIsOpen, setToggle] = useState(false);
   return (
@@ -45,8 +47,8 @@ export default function() {
             <NavItem>
               <Link className="nav-link" to={"/cart/"}>
                 Cart ({0})
-              </NavLink>
-            </Item>
+              </Link>
+            </NavItem>
           </Nav>
 
         </Collapse>

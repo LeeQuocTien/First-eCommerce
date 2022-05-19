@@ -10,7 +10,7 @@ const cart = createSlice ({
     initialState,
     reducers: {
       addToCart(state, action){
-        state.cartItems = action.payload
+        state.cartItems.push(action.payload)
       }
     }
 })
@@ -18,7 +18,7 @@ const cart = createSlice ({
 const {addToCart} = cart.actions;
 
 export const postCartItems = ({product}) => async (dispatch) => {
-  const res = axios.post("http://localhost:9081/cartItems", {product});
+  const res = await axios.post("http://localhost:9081/cartItems", {product});
   dispatch(addToCart(res.data))
 }
 

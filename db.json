@@ -142,5 +142,55 @@
     }
   ],
   "cartItems": [
+    {
+      "product": {
+        "id": 3,
+        "name": "Wine - Lamancha Do Crianza",
+        "imagineUrl": "https://picsum.photos/318/180",
+        "description": "proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue",
+        "price": "$1.21"
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Wine - Lamancha Do Crianza",
+        "imagineUrl": "https://picsum.photos/318/180",
+        "description": "proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue",
+        "price": "$1.21"
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Wine - Lamancha Do Crianza",
+        "imagineUrl": "https://picsum.photos/318/180",
+        "description": "proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue",
+        "price": "$1.21"
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Cheese - Parmesan Cubes",
+        "imagineUrl": "https://picsum.photos/318/180",
+        "description": "mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec",
+        "price": "$8.85"
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Wine - Lamancha Do Crianza",
+        "imagineUrl": "https://picsum.photos/318/180",
+        "description": "proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue",
+        "price": "$1.21"
+      },
+      "id": 5
+    }
   ]
 }
