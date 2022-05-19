@@ -2,14 +2,17 @@ import { useState, useEffect } from "react";
 import axios from 'axios';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import TopNav from "./components/TopNav";
-import Products from "./binding/Products";
-import Home from "./pages/Home";
+import TopNav from "../binding/TopNav";
+import Products from "../binding/Products";
+import Home from "../pages/Home";
 
-import "./styles.css";
+import "../styles.css";
 
-export default function App() {
+export default function App({fetchCartItems}) {
 
+  useEffect(() => {
+    fetchCartItems()
+  },[fetchCartItems])
   return (
     <Router>
        <div className="App">

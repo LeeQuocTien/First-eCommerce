@@ -18,7 +18,7 @@ import {
 
 import { Link } from 'react-router-dom';
 
-export default function() {
+export default function({cartItems}) {
   const [ toggleIsOpen, setToggle] = useState(false);
   return (
     <div>
@@ -46,7 +46,7 @@ export default function() {
             </NavItem>
             <NavItem>
               <Link className="nav-link" to={"/cart/"}>
-                Cart ({0})
+                Cart({cartItems.length})
               </Link>
             </NavItem>
           </Nav>
