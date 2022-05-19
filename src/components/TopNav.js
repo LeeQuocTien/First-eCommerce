@@ -28,25 +28,25 @@ export default function() {
         <Collapse isOpen={toggleIsOpen} className="collapse-toggler" navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/">
+              <Link className="nav-link" to={"/"}>
                 Home
-              </NavLink>
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/signin/">
+              <Link className="nav-link" to={"/signin/"}>
                 Sign In
-              </NavLink>
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/products/">
+              <Link className="nav-link" to={"/products/"}>
                 Products
-              </NavLink>
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/cartItems/">
+              <Link className="nav-link" to={"/cart/"}>
                 Cart ({0})
               </NavLink>
-            </NavItem>
+            </Item>
           </Nav>
 
         </Collapse>
