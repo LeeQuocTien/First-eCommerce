@@ -1,0 +1,1 @@
+This project is a practice how to use reactJS and redux to create a ecommerce website.
