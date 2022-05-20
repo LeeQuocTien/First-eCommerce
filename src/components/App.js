@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import TopNav from "../binding/TopNav";
 import Products from "../binding/Products";
 import Home from "../pages/Home";
+import Cart from "../binding/Cart";
 
 import "../styles.css";
 
@@ -21,6 +22,7 @@ export default function App({fetchCartItems}) {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/products/" element={<Products />} />
+          <Route path="/cart/" element={<Cart />} />
         </Routes>
       </div>
     </Router>

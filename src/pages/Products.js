@@ -54,7 +54,7 @@ export default function({products, fetchProducts, postCartItems}){
                   className="mb-2 text-muted"
                   tag="h6"
                 >
-                  {product.price}
+                  ${product.price}
                 </CardSubtitle>
                 <CardText>
                   {truncate (product.description , 100)}
