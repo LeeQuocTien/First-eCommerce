@@ -14,11 +14,14 @@ const cart = createSlice ({
       },
       setCartItems(state, action){
         state.cartItems = action.payload
+      },
+      removeCartItems(state, action){
+        state.cartItems.splice(action.payload.id - 1, 1)
       }
     }
 })
 
-const {addToCart, setCartItems} = cart.actions;
+const {addToCart, setCartItems, removeCartItems} = cart.actions;
 
 export const postCartItems = ({product}) => async (dispatch) => {
   const res = await axios.post("http://localhost:9081/cartItems", {product});
@@ -28,6 +31,11 @@ export const postCartItems = ({product}) => async (dispatch) => {
 export const fetchCartItems = () => async (dispatch) => {
   const res = await axios.get("http://localhost:9081/cartItems");
   dispatch(setCartItems(res.data))
+}
+
+export const deletePost = ({item}) => async (dispatch) => {
+  const res = await axios.delete(`http://localhost:9081/cartItems/${item.id}`);
+  dispatch(removeCartItems(res.data))
 }
 
 export default cart.reducer;

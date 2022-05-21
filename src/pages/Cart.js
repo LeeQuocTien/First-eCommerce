@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import { Button, Container, List, Media } from 'reactstrap';
 
-export default function({cartItems}) {
+export default function({cartItems, deletePost}) {
   
   if (cartItems.length > 0) {
     return (
@@ -48,6 +48,7 @@ export default function({cartItems}) {
                     </div>
                     <div >
                       <Button
+                      onClick={() => deletePost({item})}
                       className='cart-remove' close 
                       />
                     </div>
