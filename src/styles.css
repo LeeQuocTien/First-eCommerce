@@ -94,3 +94,21 @@
   width: 130px;
   padding: 0 15px;
 }
+
+.empty-cart {
+  text-align: center;
+
+}
+.notify-empty {
+  background-color: #fff3cd;
+  padding: 14px 15px 12px;
+  margin: 24px 0 35px;
+  color: #856404;
+  border-color: #ffeeba;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+a {
+  text-decoration: none;
+}
