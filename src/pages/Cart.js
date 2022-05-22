@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import { Button, Container, List, Media } from 'reactstrap';
 
-export default function({cartItems, deletePost}) {
+export default function({cartItems, deletePost, checkoutCartItems}) {
   
   if (cartItems.length > 0) {
     return (
@@ -55,8 +55,10 @@ export default function({cartItems, deletePost}) {
                 </div>
               </li>
             ))}
-            
           </List>
+          <Button onClick={() => checkoutCartItems({cartItems})}>
+            Check out
+          </Button>
         </div>
       </Container>
     )

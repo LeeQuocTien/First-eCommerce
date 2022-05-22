@@ -38,5 +38,15 @@ export const deletePost = ({item}) => async (dispatch) => {
   dispatch(removeCartItems(res.data))
 }
 
+export const checkoutCartItems = ({cartItems}) => async (dispatch) => {
+  const cartProducts = cartItems.map((item) => item.product);
+  await axios.post("http://localhost:9081/checkoutItems", {cartProducts});
+  cartItems.map( async (item) => {
+    const res = await axios.delete(`http://localhost:9081/cartItems/${item.id}`);
+    dispatch(removeCartItems(res.data))
+  })
+}
+
+
 export default cart.reducer;
 

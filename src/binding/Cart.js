@@ -1,13 +1,14 @@
 import { connect } from "react-redux";
 
 import Cart from "../pages/Cart";
-import { deletePost } from "../redux/cart";
+import { deletePost, checkoutCartItems } from "../redux/cart";
 
 const mapStatetoProps = (state) => ({
   cartItems: state.cart.cartItems
 })
 
 const mapActionstoProps = {
-  deletePost
+  deletePost,
+  checkoutCartItems
 }
 export default connect(mapStatetoProps, mapActionstoProps)(Cart)

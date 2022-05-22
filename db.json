@@ -141,5 +141,45 @@
       "price": "7.38"
     }
   ],
-  "cartItems": []
+  "cartItems": [],
+  "checkoutItems": [
+    {
+      "cartProducts": [
+        {
+          "id": 2,
+          "name": "Cheese - Parmesan Cubes",
+          "imagineUrl": "https://picsum.photos/318/180",
+          "description": "mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec",
+          "price": "8.85"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "cartProducts": [
+        {
+          "id": 2,
+          "name": "Cheese - Parmesan Cubes",
+          "imagineUrl": "https://picsum.photos/318/180",
+          "description": "mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec",
+          "price": "8.85"
+        },
+        {
+          "id": 1,
+          "name": "Mushrooms - Honey",
+          "imagineUrl": "https://picsum.photos/318/180",
+          "description": "commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id",
+          "price": "3.26"
+        },
+        {
+          "id": 3,
+          "name": "Wine - Lamancha Do Crianza",
+          "imagineUrl": "https://picsum.photos/318/180",
+          "description": "proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue",
+          "price": "1.21"
+        }
+      ],
+      "id": 2
+    }
+  ]
 }
