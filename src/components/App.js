@@ -4,16 +4,21 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import TopNav from "../binding/TopNav";
 import Products from "../binding/Products";
-import Home from "../pages/Home";
+import Home from "../binding/Home";
 import Cart from "../binding/Cart";
 
 import "../styles.css";
 
-export default function App({fetchCartItems}) {
+export default function App({fetchCartItems, fetchProducts}) {
 
   useEffect(() => {
     fetchCartItems()
   },[fetchCartItems])
+
+  useEffect(() => {
+    fetchProducts()
+  },[fetchProducts])
+
   return (
     <Router>
        <div className="App">
