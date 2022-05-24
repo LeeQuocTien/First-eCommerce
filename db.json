@@ -141,7 +141,38 @@
       "price": "7.38"
     }
   ],
-  "cartItems": [],
+  "users": [
+    {
+      "firstName": "Lê",
+      "lastName": "Quốc Tiến",
+      "email": "tienlq079@gmail.com",
+      "password": "123456",
+      "address": "123456",
+      "id": 1
+    }
+  ],
+  "cartItems": [
+    {
+      "product": {
+        "id": 4,
+        "name": "Onion Powder",
+        "imagineUrl": "https://picsum.photos/318/180",
+        "description": "varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper",
+        "price": "4.19"
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Wine - Lamancha Do Crianza",
+        "imagineUrl": "https://picsum.photos/318/180",
+        "description": "proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue",
+        "price": "1.21"
+      },
+      "id": 2
+    }
+  ],
   "checkoutItems": [
     {
       "cartProducts": [

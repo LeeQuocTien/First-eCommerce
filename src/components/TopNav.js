@@ -35,8 +35,8 @@ export default function({cartItems}) {
               </Link>
             </NavItem>
             <NavItem>
-              <Link className="nav-link" to={"/signin/"}>
-                Sign In
+              <Link className="nav-link" to={"/register/"}>
+                Register
               </Link>
             </NavItem>
             <NavItem>

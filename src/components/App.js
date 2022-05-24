@@ -6,6 +6,7 @@ import TopNav from "../binding/TopNav";
 import Products from "../binding/Products";
 import Home from "../binding/Home";
 import Cart from "../binding/Cart";
+import Register from "../binding/Register";
 
 import "../styles.css";
 
@@ -27,6 +28,7 @@ export default function App({fetchCartItems, fetchProducts}) {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/products/" element={<Products />} />
+          <Route path="/register/" element={<Register/>} />
           <Route path="/cart/" element={<Cart />} />
         </Routes>
       </div>
