@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect } from 'react';
-
 import {
   CardGroup,
   Card,
@@ -16,8 +15,9 @@ import {
   Breadcrumb,
   BreadcrumbItem,
 } from 'reactstrap';
-
 import { Link } from 'react-router-dom';
+
+import BreadCrumb from '../components/BreadCrumb';
 
 const truncate = (str , max) => str.length < max ? str : `${str.substr(0, max)}...`;;
 
@@ -33,6 +33,9 @@ export default function({products, postCartItems}){
 
   return (
     <Container fluid>
+      <BreadCrumb 
+      pages={[{tag: "span", name: "Home"}]} 
+      />
       <h4>HOME</h4>
       <div>
         <div className='d-flex justify-content-end'>
