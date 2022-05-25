@@ -23,27 +23,19 @@ export default function({cartItems}) {
   return (
     <div>
       <Navbar color="light" expand="md" light>
-        <NavbarBrand href="/">
-          reactstrap
+        <NavbarBrand href='/'>
+            First-Ecommerce
         </NavbarBrand>
-        <NavbarToggler onClick={() => setToggle(!toggleIsOpen)} />
+        <NavbarToggler className='me-2'
+          onClick={() => setToggle(!toggleIsOpen)} 
+        />
         <Collapse isOpen={toggleIsOpen} className="collapse-toggler" navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <Link className="nav-link" to={"/"}>
-                Home
-              </Link>
-            </NavItem>
-            <NavItem>
               <Link className="nav-link" to={"/signin/"}>
-                Sign In
+                Register
               </Link>
-            </NavItem>
-            <NavItem>
-              <Link className="nav-link" to={"/products/"}>
-                Products
-              </Link>
-            </NavItem>
+            </NavItem>          
             <NavItem>
               <Link className="nav-link" to={"/cart/"}>
                 Cart({cartItems.length})
